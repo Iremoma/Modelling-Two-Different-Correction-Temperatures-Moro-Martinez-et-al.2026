@@ -12,7 +12,7 @@ The model is used to reproduce the decoupling between growth and standard metabo
 |------|-------------|
 | `DEB_O2.stan` | STAN model code implementing the 2cT DEB framework. Includes the ODE system for state variables (reserve *E*, structure *V*, maturity *E_H*), temperature corrections, and the calculation of oxygen consumption. |
 | `fit_model.R` | R script to load data, compile the STAN model, set initial values, run the Bayesian inference (using `cmdstanr`), and save the results. |
-| `input github.RData` | Processed dataset (length, weight, oxygen consumption) for 136 individual fish, along with all necessary constants and priors. |
+| `input.RData` | Processed dataset (length, weight, oxygen consumption) for 136 individual fish, along with all necessary constants and priors. |
 | `out.RDS` | (Generated) Fitted model object. |
 | `out_dignosi.txt` | (Generated) STAN diagnostic output (convergence, divergences, etc.). |
 
@@ -73,7 +73,7 @@ The model is used to reproduce the decoupling between growth and standard metabo
 
 To adapt the model to your own data:
 
-1. Replace `input github.RData` with your own dataset (same variable names and structure).
+1. Replace `input.RData` with your own dataset (same variable names and structure).
 2. Adjust priors and fixed parameters in the data block if necessary.
 3. Modify the STAN model if you need alternative functional forms for temperature corrections.
 
