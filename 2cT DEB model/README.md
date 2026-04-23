@@ -18,6 +18,7 @@ The model is used to reproduce the decoupling between growth and standard metabo
 
 ---
 
+* The input.RData can be download directly from releases [clicking here]
 ## Requirements
 
 - R (≥ 4.1.3)
