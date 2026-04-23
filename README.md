@@ -16,6 +16,16 @@ Recommended properties of the computer, and those that characterized the compute
 # Contents
 We provide the R scripts necessary to reproduce the data exploration and analysis of the model presented on the paper Moro-Martinez _et al._, XXXX. **Note that the scripts are self-explanatory and have a lot of notations to guide the user on the different steps.** By running the code you will be able to reproduce the estimation of temperature parameters and explore the results.
 
+All the code is organized in the following folder:
+
+### [2cT DEB model](https://github.com/Iremoma/Modelling-Two-Different-Correction-Temperatures-Moro-Martinez-et-al.2026/tree/main/2cT DEB model)
+
+In this section you will find the STAN routine developed for estimating the DEB model parameters at the individual level for 136 juvenile European seabass (*Dicentrarchus labrax*), for which repeated measurements of length, wet weight and oxygen consumption were available. We provide:
+
+- The input data file `input.RData` which the pre‑processed dataset used for the analysis.
+- The STAN model (`DEB_O2.stan`) that implements the modified DEB framework with two temperature correction factors
+- R code for running the Bayesian inference and saving the results
+  
 # Citation
 If you use this code, please consider citing our work:
 
