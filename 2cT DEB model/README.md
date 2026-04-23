@@ -32,7 +32,7 @@ The model is used to reproduce the decoupling between growth and standard metabo
    Open R and set working directory to this folder.
 
 2. **Load data and libraries**  
-   Run `fit_model.R`; it will load `input github.RData` which contains:
+   Run `fit_model.R`; it will load `input.RData` which contains:
    - Observations (`obs`, `obs0`)
    - DEB fixed parameters (`f`, `E_G`, `kap`, ...)
    - Temperature parameters (sinusoidal fits per group)
