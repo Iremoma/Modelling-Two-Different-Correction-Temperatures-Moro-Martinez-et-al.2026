@@ -11,7 +11,7 @@
 #-----
 remove(list=ls())
 library(cmdstanr)
-load("input github.RData")
+load("input.RData")
 
 #-----       
 # 2: STAN model
