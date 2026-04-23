@@ -18,7 +18,7 @@ The model is used to reproduce the decoupling between growth and standard metabo
 
 ---
 
-* The input.RData can be download directly from releases [clicking here]
+* The input.RData can be download directly from releases [clicking here](https://github.com/Iremoma/Modelling-Two-Different-Correction-Temperatures-Moro-Martinez-et-al.2026/releases/tag/v1/input.RData).
 ## Requirements
 
 - R (≥ 4.1.3)
