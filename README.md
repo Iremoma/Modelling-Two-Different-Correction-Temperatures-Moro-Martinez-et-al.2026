@@ -18,7 +18,7 @@ We provide the R scripts necessary to reproduce the data exploration and analysi
 
 All the code is organized in the following folder:
 
-### [2cT DEB model]([https://github.com/Iremoma/Modelling-Two-Different-Correction-Temperatures-Moro-Martinez-et-al.2026/tree/main/2cT DEB model](https://github.com/Iremoma/Modelling-Two-Different-Correction-Temperatures-Moro-Martinez-et-al.2026/tree/main/2cT%20DEB%20model)
+### [2cT DEB model]([https://github.com/Iremoma/Modelling-Two-Different-Correction-Temperatures-Moro-Martinez-et-al.2026/tree/main/2cT DEB model](https://github.com/Iremoma/Modelling-Two-Different-Correction-Temperatures-Moro-Martinez-et-al.2026/tree/main/2cT%20DEB%20model))
 
 In this section you will find the STAN routine developed for estimating the DEB model parameters at the individual level for 136 juvenile European seabass (*Dicentrarchus labrax*), for which repeated measurements of length, wet weight and oxygen consumption were available. We provide:
 
