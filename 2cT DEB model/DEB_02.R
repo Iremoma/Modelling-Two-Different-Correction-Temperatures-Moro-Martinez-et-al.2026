@@ -5,44 +5,12 @@
 
 DEBmodel=function(time, state, parms) { 
   with(as.list(c(state, parms)), {
-    
-    # i=50
-    # Kelvin=parms2$Kelvin
-    # Temp_mean=parms2$Temp_mean#[ID_temp[i]]
-    # Temp_amp=parms2$Temp_mean#[ID_temp[i]]
-    # pi2f=parms2$pi2f
-    # Temp_phi=parms2$Temp_phi#[ID_temp[i]]
-    # #birth_correction=birth_correction[i]
-    # time=t0[i]
-    # #p_Am=median(data.frame(as_draws_df(fit$draws(paste("p_Am[",i,"]",sep=""))))[,1])
-    # p_Am=500
-    # v=parms$v_after
-    # p_M=parms2$p_M
-    # k_J=parms2$k_J
-    # f=parms2$f
-    # #temp = (data.frame(as_draws_df(fit$draws("y0"))))
-    # # E=median(temp[,paste("y0.",i,".1.",sep="")])
-    # # V=median(temp[,paste("y0.",i,".2.",sep="")])
-    # # E_H=median(temp[,paste("y0.",i,".3.",sep="")])
-    # E = E0_i
-    # V = V0_i
-    # E_H=1
-    # E_G=parms2$E_G
-    # kap=parms2$kap
-    # kap_R=parms2$kap_R
-    
 
     Temp = Kelvin + Temp_mean + Temp_amp*sin(pi2f*(time + birth_correction) + Temp_phi) 
     #cT = exp(TA/T1 - TA/Temp)
     sT = (1.0 + exp(T_AL/Temp - T_AL/T_L) + exp(T_AH/T_H - T_AH/Temp));
     sT1 = (1.0 + exp(T_AL/T_ref - T_AL/T_L) + exp(T_AH/T_H - T_AH/T_ref));
     cT1 = (sT1/sT)*exp(T_A[1]/T_ref - T_A[1]/Temp);
-    
-    #cT1 = exp(T_A[1]/T_ref - T_A[1]/Temp)
-    
-    #sT_2 = (1.0 + exp(T_AL[2]/Temp - T_AL[2]/T_L[2]) + exp(T_AH[2]/T_H[2] - T_AH[2]/Temp));
-    #sT1_2 = (1.0 + exp(T_AL[2]/T_ref - T_AL[2]/T_L[2]) + exp(T_AH[2]/T_H[2] - T_AH[2]/T_ref));
-    #cT2 = (sT1_2/sT_2)*exp(T_A[2]/T_ref - T_A[2]/Temp);
     cT2 = exp(T_A[2]/T_ref - T_A[2]/Temp)
     
     
@@ -74,7 +42,6 @@ DEBmodel=function(time, state, parms) {
     #-------
     # Observable variables
     #-------
-    # eta_O
     
     # Yields
     M_V     = d_V/ w_V;                   # mol/cm^3, [M_V], volume-specific mass of structure
@@ -107,8 +74,6 @@ DEBmodel=function(time, state, parms) {
     ox_consumption =  - 2* 16 * J_M[3];                           # g/d, O2 consumption 
     
     # 4) food consumed
-    #w_X=23.9
-    #d_X=0.9
     food = - w_X * J_O[1] / d_X;  # g/d, ingested food wet mass
     
     # 5) feaces
