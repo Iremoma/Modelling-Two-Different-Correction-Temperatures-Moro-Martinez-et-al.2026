@@ -3,6 +3,8 @@
 This repository contains all the code related to our work entitled **Divergent thermal responses of energy acquisition and mobilization explain decoupling between growth and metabolic rate in ectotherms**, by Irene Moro-Martinez, Andrea Campos-Candela, Joaquim Tomas-Ferrer and Miquel Palmer.
 The work presented here is a contribution towards gaining greater ubderstanding of the thermal decoupling among physiological processes in Dynamic Energy Budget (**DEB**) models. [More about DEB theory [here](https://debportal.debtheory.org/docs/)]. For instance, we present a modified DEB model in which temperature dependence of assimilation energy flux is described using a unimodal Sharpe–Schoolfield curve, whereas temperature dependence of all other energy fluxes follow an Arrhenius (exponential) scaling.  We present our analytical strategy based on Bayesian inference developed in **STAN**. [More about STAN [here](https://mc-stan.org/)].
 
+The primary codebase underlying the implementation presented here, including detailed documentation and explanations, and associated with Palmer et al. (2024), is available at the following repository: [DEB_IndividualVariability-Palmer-et-al.2024](https://github.com/Iremoma/DEB_IndividualVariability-Palmer-et-al.2024)
+
 This repository is licensed under a [MIT License Copyright (c) 2026 Irene Moro-Martinez](./LICENSE). 
 
 # Requirements
