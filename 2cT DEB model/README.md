@@ -54,7 +54,7 @@ The model is used to reproduce the decoupling between growth and standard metabo
 
 - **Two temperature corrections**  
   - `cT1` (assimilation): unimodal (Sharpe‑Schoolfield)  
-  - `cT2` (other fluxes): pure Arrhenius
+  - `cT2` (other fluxes): Arrhenius equation
 
 - **Hierarchical structure**  
   - Individual‑level assimilation compound parameter `∀` (product of max assimilation and functional response)  
