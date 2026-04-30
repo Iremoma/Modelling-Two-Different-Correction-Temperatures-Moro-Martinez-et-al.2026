@@ -31,6 +31,6 @@ In this section you will find the STAN routine developed for estimating the DEB 
 # Citation
 If you use this code, please consider citing our work:
 
-Moro-Martinez, I.; Campos-Candela, A.; Tomas-Ferrer, J.; and Palmer, M.; (submitted) Divergent thermal responses of energy acquisition and mobilization explain decoupling between growth and metabolic rate in ectotherms _Accepted in XXXX. Pending publication_.
+Moro-Martinez, I.; Campos-Candela, A.; Tomas-Ferrer, J.; and Palmer, M.; (submitted) Divergent thermal responses of energy acquisition and mobilization can explain decoupling between growth and metabolic rate in ectotherms. *Pending publication*.
 
-Any questions: palmer@imedea.uib-csic.es , irenejues@gmail.com
+Any questions: m.palmer@csic.es , irenejues@gmail.com
