@@ -25,7 +25,7 @@ All the code is organized in the following folder:
 In this section you will find the STAN routine developed for estimating the DEB model parameters at the individual level for 136 juvenile European seabass (*Dicentrarchus labrax*), for which repeated measurements of length, wet weight and oxygen consumption were available. We provide:
 
 - The input data file `input.RData` which the pre‑processed dataset used for the analysis.
-- The STAN model (`DEB_O2.stan`) that implements the modified DEB framework with two temperature correction factors
+- The STAN model (`DEB.stan`) that implements the modified DEB framework with two temperature correction factors
 - R code for running the Bayesian inference and saving the results
   
 # Citation
