@@ -78,6 +78,14 @@ To adapt the model to your own data:
 
 ---
 
+## Updated code: implementation of all four model formulations
+
+A new version of the code is now available. The previous version implemented only Model 3, which applies a unimodal temperature correction to assimilation and an exponential (Arrhenius-type) correction to the other energy fluxes.
+
+The updated version allows users to run all four model formulations described in the manuscript “Divergent thermal responses of energy acquisition and mobilization could explain decoupling between growth and metabolic rate in ectotherms” (Moro-Martinez et al., XXXX). These models represent alternative assumptions about temperature dependence in Dynamic Energy Budget (DEB) fluxes, enabling direct comparison of their performance.
+
+---
+
 ## Citation
 
 If you use this code, please cite the main paper:
